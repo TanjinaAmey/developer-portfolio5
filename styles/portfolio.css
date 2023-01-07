@@ -69,6 +69,9 @@ main{
     max-width: 1140px ;
     margin: 0 auto;
 }
+section{
+    margin-top: 130px;
+}
 /* about section styles */
 .about{
     text-align: center;
@@ -78,10 +81,10 @@ border-radius: 10px;
 padding:130px 150px ;
 }
 .section-title{
-    
+    text-align: center;
     font-weight: 700;
 font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 
 }
 .section-description{
@@ -100,6 +103,32 @@ font-size: 35px;
 }
 .info-description{
     font-weight: 700;
-font-size: 20px;
-color: #474747;
+    font-size: 20px;
+    color: #474747;
 }
+/* What I do styles */
+.what-I-do{
+    margin-top: 30px;
+}
+.skill-container{
+    display: flex;
+    gap:24px;
+}
+.skill{
+    background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+padding: 30px;
+}
+.skill-title{
+    font-weight: 700;
+font-size: 20px;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.skill-description{
+    font-weight: 400;
+font-size: 16px;
+color: #757575;
+}
+/* resume styles */
